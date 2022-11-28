@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>DOM</title>
+    
+</head>
+<style>
+    body{
+        margin: 0;
+        box-sizing: border-box;
+        background-image:
+        /* linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)),  */
+        url(https://html.sammy-codes.com/images/background.jpg);
+    }
+
+    header > div{
+        display: flex;
+        flex-direction: row;
+        justify-content:first baseline;
+        background-color: aqua;
+       
+    }
+    header{
+        margin-bottom: -30px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: blue;
+    }
+    header > h1{
+      width:600px;
+    }
+    
+    #h1_text {
+        background-color:rgb(41, 219, 219);
+        padding: 5px;
+        border: 1px solid rgb(162, 153, 153);
+        /* margin-top: 40px; */
+        border-style: none;
+        text-align: center;  
+    }
+
+
+    table > tr , th {
+        font-size: 1.5em;
+    }
+    table{
+        margin-left: 20px;
+        font-size: 1.6em;
+    }
+
+    .my_table2{
+        margin-top: 20px;
+    }
+    
+
+</style>
+
+<body>
+    <header>
+        <div>
+            <img src="https://www.wikipedia.org/portal/wikipedia.org/assets/img/Wikipedia-logo-v2.png" alt="" width="170px" height="140px"> 
+
+            <marquee behavior="scroll" direction="right">
+                <h2 id="h2_text">
+                    The world goes round:
+                </h2>     
+            </marquee>
+        </div>
+       
+    </header>
+    
+    
+    <h1 id="h1_text">A simple table</h1>
+
+
+    <table class="my_table1">
+        <tbody>
+            <tr style="color: blue">
+                <th>Name</th>
+                <th>Age</th>
+            </tr>
+
+            <tr>
+                <td>John</td>
+                <td>25</td>
+            </tr>
+
+            <tr>
+                <td>Jane</td>
+                <td>24</td>
+            </tr>
+
+            <tr>
+                <td>Jack</td>
+                <td>23</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+    <table class="my_table2">
+    
+        <tbody>
+            <tr style="color: blue;">
+                <th>Name</th>
+                <th>Age</th>
+            </tr>
+
+            <tr>
+                <td>Ade</td>
+                <td>28</td>
+            </tr>
+            
+            <tr>
+                <td>Pat</td>
+                <td>25</td>
+            </tr>
+
+            <tr>
+                <td>Simon</td>
+                <td>32</td>
+            </tr>
+
+        </tbody>
+    </table>
+
+
+</body>
+
+</html>
